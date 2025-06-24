@@ -8,7 +8,6 @@ const rowsCount= await rows.count();
 const targetName :string= "Ali";
 
 for (let  i=0 ;i <rowsCount; i++){
-//const nameCell  = await  rows.nth(i).locator('td').nth(0).innerText()
 const nameCell = rows.nth(i).locator('td').nth(0);
 const cellText  = await nameCell.textContent();
 

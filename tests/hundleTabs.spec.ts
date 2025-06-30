@@ -10,4 +10,6 @@ await Promise.all([
 page.locator("//a[@aria-label='Facebook']").click()
 
 ])
+
+await page.screenshot({path:'screenshot/screenpage.png',fullPage:true});
 });

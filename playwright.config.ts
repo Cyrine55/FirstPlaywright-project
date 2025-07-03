@@ -30,10 +30,13 @@ export default defineConfig({
     launchOptions: {
       args: ['--start-maximized'], // ← plein écran
     },
+    video:'on',
+    
 headless: false,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     browserName:'firefox',
+    
   },
 
   /* Configure projects for major browsers */

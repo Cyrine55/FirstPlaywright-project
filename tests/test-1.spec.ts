@@ -1,11 +1,11 @@
 import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
-  await page.goto('await page.goto('await page.goto('https://www.way2automation.com/way2auto_jquery/index.php');
+  await   await page.goto('https://www.way2automation.com/way2auto_jquery/index.php');
   await page.locator('input[name="name"]').click();
   await page.locator('input[name="name"]').press('F15');
   await page.locator('input[name="name"]').fill('ttestest');
-  await page.locator('input[name="name"]').fill('ttestest');');
+  await page.locator('input[name="name"]').fill('ttestest');
   await page.locator('input[name="name"]').click();
   await page.locator('input[name="name"]').fill('test');
   await page.locator('input[name="phone"]').click();
@@ -21,7 +21,7 @@ test('test', async ({ page }) => {
   await page.locator('#load_box input[name="password"]').fill('test');
   await page.getByRole('button', { name: 'Submit' }).click();
   await page.locator('input[name="email"]').fill('testàd');
-  await page.locator('input[name="email"]').fill('testàd');');
+  await page.locator('input[name="email"]').fill('testàd');
   await page.locator('input[name="name"]').click();
   await page.locator('input[name="name"]').fill('est');
   await page.locator('input[name="name"]').press('Tab');

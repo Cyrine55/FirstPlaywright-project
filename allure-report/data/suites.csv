@@ -1,3 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","20943","uploadFile","chromium","Mon Jul 07 13:42:24 CET 2025","passed","Mon Jul 07 13:42:45 CET 2025","","uploadFile.spec.ts","",""
-"","4092","uploadFile","firefox","Mon Jul 07 13:42:24 CET 2025","passed","Mon Jul 07 13:42:28 CET 2025","","uploadFile.spec.ts","",""
+"","30061","uploadFile","firefox","Tue Jul 08 10:47:52 CET 2025","broken","Tue Jul 08 10:48:22 CET 2025","","uploadFile.spec.ts","",""
+"","30622","uploadFile","chromium","Tue Jul 08 10:43:18 CET 2025","broken","Tue Jul 08 10:43:48 CET 2025","","uploadMultipleFile.spec.ts","",""
+"","6632","uploadFile","chromium","Tue Jul 08 10:47:52 CET 2025","passed","Tue Jul 08 10:47:58 CET 2025","","uploadFile.spec.ts","",""

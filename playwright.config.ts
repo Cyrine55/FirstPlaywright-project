@@ -31,6 +31,7 @@ export default defineConfig({
       args: ['--start-maximized'], // ← plein écran
     },
     video:'on',
+    screenshot:'only-on-failure',
     
 headless: false,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */

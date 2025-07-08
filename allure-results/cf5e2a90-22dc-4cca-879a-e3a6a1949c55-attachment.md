@@ -1,0 +1,163 @@
+# Page snapshot
+
+```yaml
+- link "Way2automation":
+  - /url: https://www.way2automation.com
+  - img "Way2automation"
+- list:
+  - listitem: +91-9711-191-558
+  - listitem:
+    - link "trainer@way2automation.com":
+      - /url: mailto:trainer@way2automation.com
+  - listitem: seleniumcoaching
+- navigation:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: https://www.way2automation.com
+    - listitem:
+      - link "Interaction":
+        - /url: "javascript:"
+    - listitem:
+      - link "Widget":
+        - /url: "javascript:"
+    - listitem:
+      - link "Frames and Windows":
+        - /url: frames-and-windows.php
+    - listitem:
+      - link "Dynamic Elements":
+        - /url: "javascript:"
+    - listitem:
+      - link "Registration":
+        - /url: registration.php
+    - listitem:
+      - link "Alert":
+        - /url: alert.php
+- list:
+  - listitem: Test your Selenium / QTP Scripts
+  - listitem
+- heading "Website for Testing Selenium / QTP scripts" [level=1]
+- paragraph: Most of the time people asked me to provide a website where they can find all available WebElement and can practice their Selenium or QTP scripts. This is one of the Website I specially built which can fulfil the basic requirement of testing the simple and complex elements which we come across mostly while performing Automation on a Web based project .
+- paragraph: Try automating below elements through Selenium or QTP and see how much you are comfortable in writing and executing automation scripts. If you are able to handle these elements then you can automate any website in the world.
+- 'heading "Assignment 2: Count total number of boxes from below page" [level=1]'
+- 'heading "Assignment 3: Count total number of boxes under WIDGET section" [level=1]'
+- 'heading "Assignment 4: Click on the box with name DROPDOWN" [level=1]'
+- heading "Many more assignemnts under each Box" [level=3]
+- heading "Interaction" [level=1]
+- list:
+  - listitem:
+    - link "Draggable":
+      - /url: draggable.php
+      - heading "Draggable" [level=2]
+      - figure:
+        - img "Draggable"
+  - listitem:
+    - link "Droppable":
+      - /url: droppable.php
+      - heading "Droppable" [level=2]
+      - figure:
+        - img "Droppable"
+  - listitem:
+    - link "Resizable":
+      - /url: resizable.php
+      - heading "Resizable" [level=2]
+      - figure:
+        - img "Resizable"
+  - listitem:
+    - link "Selectable":
+      - /url: selectable.php
+      - heading "Selectable" [level=2]
+      - figure:
+        - img "selectable"
+  - listitem:
+    - link "Sortable":
+      - /url: sortable.php
+      - heading "Sortable" [level=2]
+      - figure:
+        - img "sortable"
+- heading "Widget" [level=1]
+- list:
+  - listitem:
+    - link "Accordion":
+      - /url: accordion.php
+      - heading "Accordion" [level=2]
+      - figure:
+        - img "accordion"
+  - listitem:
+    - link "Autocomplete":
+      - /url: autocomplete.php
+      - heading "Autocomplete" [level=2]
+      - figure:
+        - img "autocomplete"
+  - listitem:
+    - link "Datepicker":
+      - /url: datepicker.php
+      - heading "Datepicker" [level=2]
+      - figure:
+        - img "Date Picker"
+  - listitem:
+    - link "Menu":
+      - /url: menu.php
+      - heading "Menu" [level=2]
+      - figure:
+        - img "Menu"
+  - listitem:
+    - link "Slider":
+      - /url: slider.php
+      - heading "Slider" [level=2]
+      - figure:
+        - img "slider"
+  - listitem:
+    - link "Tabs":
+      - /url: tabs.php
+      - heading "Tabs" [level=2]
+      - figure:
+        - img "Tabs"
+  - listitem:
+    - link "Tooltip":
+      - /url: tooltip.php
+      - heading "Tooltip" [level=2]
+      - figure:
+        - img "Tooltip"
+- heading "Frames and Windows" [level=1]
+- list:
+  - listitem:
+    - link "Frames and Windows":
+      - /url: frames-and-windows.php
+      - heading "Frames and Windows" [level=2]
+      - figure:
+        - img "Frames and window"
+- heading "Dynamic Elements" [level=1]
+- list:
+  - listitem:
+    - link "Submit Button Clicked":
+      - /url: submit_button_clicked.php
+      - heading "Submit Button Clicked" [level=2]
+      - figure:
+        - img "submit button"
+  - listitem:
+    - link "Dropdown":
+      - /url: dropdown.php
+      - heading "Dropdown" [level=2]
+      - figure:
+        - img "dropdown"
+- heading "Registration" [level=1]
+- list:
+  - listitem:
+    - link "Registration":
+      - /url: registration.php
+      - heading "Registration" [level=2]
+      - figure:
+        - img "registration"
+- heading "Alert" [level=1]
+- list:
+  - listitem:
+    - link "Alert":
+      - /url: alert.php
+      - heading "Alert" [level=2]
+      - figure:
+        - img "alert"
+- text: © Copyrights 2014. All rights reserved.
+- link:
+  - /url: "#load_box"
+```

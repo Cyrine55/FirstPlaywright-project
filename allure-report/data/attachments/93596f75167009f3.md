@@ -1,0 +1,49 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Sauce Labs":
+    - /url: https://saucelabs.com/
+    - img "Sauce Labs"
+- heading "Sign in" [level=3]
+- group:
+  - text: User Name
+  - textbox "User Name"
+  - text: Password
+  - textbox "Password": pass
+  - text: Remember username
+  - checkbox "Remember username"
+  - link "I forgot my password":
+    - /url: "#passwordReset/"
+  - button "Log in" [disabled]
+- paragraph: or sign in with
+- navigation:
+  - list:
+    - listitem:
+      - link "Authenticate with Google Google":
+        - /url: "?service=googleTree#login/"
+        - img "Authenticate with Google"
+        - text: Google
+    - listitem:
+      - link "Authenticate with GitHub GitHub":
+        - /url: "?service=githubTree#login/"
+        - img "Authenticate with GitHub"
+        - text: GitHub
+    - listitem:
+      - link "Authenticate with SSO SSO":
+        - /url: "#sso-login/"
+        - img "Authenticate with SSO"
+        - text: SSO
+- text: Not a customer?
+- link "Try for free":
+  - /url: https://saucelabs.com/sign-up
+- region "Cookie banner":
+  - alertdialog "Privacy":
+    - paragraph:
+      - text: This website uses cookies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. To learn more, please visit our
+      - link "More information about your privacy":
+        - /url: https://www.saucelabs.com/doc/cookie-notice
+        - text: Cookie Notice
+    - button "OK"
+    - button "Close"
+```
